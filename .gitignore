@@ -1,0 +1,8 @@
+out/
+*.class
+voidbeat.jar
+# user-supplied tracks stay local
+songs/*.wav
+songs/*.aif
+songs/*.aiff
+songs/*.au
