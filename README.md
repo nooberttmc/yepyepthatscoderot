@@ -6,7 +6,17 @@ so the built-in music is 100% copyright-free.
 
 **Controls: `D` `F` `J` `K`**
 
-## Run it
+## Windows: just double-click
+
+Download `VOIDBEAT-windows.zip`, extract it, and double-click **`VOIDBEAT.exe`**. It comes with
+its own Java runtime, so there's nothing to install. Keep the folder together, because the exe needs
+the `app` and `runtime` folders next to it. If SmartScreen warns about an unrecognized app, click
+*More info → Run anyway* (the exe isn't code-signed).
+
+To rebuild the zip, run `./packaging/build-windows.sh` on Linux. It needs mingw-w64, a JDK, python3
+and curl, and it writes `dist/VOIDBEAT-windows.zip`.
+
+## Run from source
 
 You need a JDK 17 or newer.
 

@@ -6,3 +6,5 @@ songs/*.wav
 songs/*.aif
 songs/*.aiff
 songs/*.au
+build/
+dist/
